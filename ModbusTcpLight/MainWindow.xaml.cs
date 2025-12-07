@@ -134,6 +134,7 @@ namespace ModbusTcpLight
                         ConnectButton.IsEnabled = false;
                         DisconnectButton.IsEnabled = true;
                         AllLedsOn.IsEnabled = true;
+                        AllLedsOff.IsEnabled = true;
                         _leds.ForEach(x => x.IsHitTestVisible = true);
                         _receiveTask = new Task(() =>
                         {
@@ -171,6 +172,7 @@ namespace ModbusTcpLight
                 ConnectButton.IsEnabled = true;
                 DisconnectButton.IsEnabled = false;
                 AllLedsOn.IsEnabled = false;
+                AllLedsOff.IsEnabled = false;
                 StatusTextBlock.Text = "Î´Á¬½Ó";
                 foreach (var led in _leds)
                 {
