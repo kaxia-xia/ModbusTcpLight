@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ModbusTcpLight (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ModbusTcpLight (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
