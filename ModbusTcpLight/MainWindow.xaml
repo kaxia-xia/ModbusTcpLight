@@ -16,6 +16,9 @@
             <ColumnDefinition Width="3.2*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" Margin="10">
+            <StackPanel.Background>
+                <AcrylicBrush Opacity="0.3" TintColor="Black" />
+            </StackPanel.Background>
             <TextBlock Text="Modbus TCP Light" FontSize="26" FontWeight="Bold" Margin="0,0,0,30"/>
             <StackPanel Orientation="Horizontal" Margin="0 0 0 20">
                 <TextBlock Text="IP: " Width="60" VerticalAlignment="Center"/>
